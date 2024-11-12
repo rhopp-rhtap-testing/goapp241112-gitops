@@ -20,7 +20,6 @@ pipeline {
             }
         }
     }
-    env
     environment {
         /* Not used but init.sh will fail if they're missing */
         COSIGN_SECRET_PASSWORD = 'dummy'
